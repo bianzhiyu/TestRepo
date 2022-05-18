@@ -5,5 +5,5 @@ class MServer:
     pass
   def sreceive(this):
     pass
-  def stest(this):
+  def test(this):
     return "Server: Hello"
