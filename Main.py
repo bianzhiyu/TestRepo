@@ -2,9 +2,9 @@ import Server.MServer as MS
 import Client.MClient as MC
 
 def main():
-  ms = MS()
+  ms = MS.MServer()
   print(ms.test())
-  mc = MC()
+  mc = MC.MClient()
   print(mc.test())
   
 
